@@ -1,8 +1,21 @@
-# unir_ejercicio3
+
+# Unir_ejercicio3
 Este repositorio tiene como objetivo: practicar el compartir y trabajar un proyecto mediante repositorio con compañeros de grupo
 
 El objetivo anterior lo ponemos en práctica con la creación de un archivo en formato Pearl donde todos los compañeros tienen acceso para realizar cambios y adiciones a este.
-En este archivo realizamos la manipulación de una secuencia de ADN ficticia tomando la guía de lo visto en clase para su realización.
+En este archivo realizamos la manipulación de una secuencia de ADN tomando la guía de lo visto en clase para su realización.
 
-Se empieza con la definición de la variable secuencia, posteriormente obtenemos el largo de la secuencia previamente creada.
-Siguiente a esto procedemos a obtener el complemento inverso de la primera porción de la cadena de ADN utilizada para la creación de la variable.
+# Proyecto: script basico para analisis de secuencia
+
+# Objetivos
+
+Aprender el uso de GitHub como herramientas de control de versiones.
+Crear un repositorio compartido, gestionar archivos y carpetas.
+
+# Usuarios
+Robert Celis: robcelis
+Maryam Tebyania:  mtc1696
+Heidy Patiño: Hipatino16
+Silvia Figueroa: scfigo
+
+## creacion de comandos para trabajar desde un archivo con secuencias en formato fasta
