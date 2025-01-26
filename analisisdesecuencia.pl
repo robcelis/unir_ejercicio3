@@ -30,6 +30,9 @@ print "La subsecuencia extraída desde la posición $start con una longitud de $
 Ejecución de la secuencua con bash
 
 perl analizar_secuencia.pl
+
+# Obtenemos los siguientes resultados: 
+
 La longitud de la secuencia es: 34
 La cantidad de nucleótidos 'A' en la secuencia es: 4
 El patrón 'GCC' se encuentra en la posición 4 de la secuencia.
