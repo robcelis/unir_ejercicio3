@@ -28,6 +28,23 @@ my $length= 10; # largo de la secuencia
 my $longitud  = length($secuencia);
 print "La longitud de la secuencia es : $longitud\n" ;
 
+# 2. Contar la cantidad de un nucleótido específico en la secuencia
+my $count_nucleotido = ($secuencia =~ s/$nucleotido/$nucleotido/g);
+print "La cantidad de nucleótidos '$nucleotido' en la secuencia es: $count_nucleotido\n";
+
+# 3. Buscar un patrón dentro de la secuencia
+my $posicion_patron = index($secuencia, $patron);
+if ($posicion_patron != -1) {
+    print "El patrón '$patron' se encuentra en la posición $posicion_patron de la secuencia.\n";
+} else {
+    print "El patrón '$patron' no se encuentra en la secuencia.\n";
+}
+
+# 4. Extraer una subsecuencia específica
+my $subsecuencia = substr($secuencia, $start, $length);
+print "La subsecuencia extraída desde la posición $start con una longitud de $length es: $subsecuencia\n";
+
+
 exit;
 
 
