@@ -27,16 +27,5 @@ if ($posicion_patron != -1) {
 my $subsecuencia = substr($secuencia, $start, $length);
 print "La subsecuencia extraída desde la posición $start con una longitud de $length es: $subsecuencia\n";
 
-Ejecución de la secuencua con bash
-
-perl analizar_secuencia.pl
-
-# Obtenemos los siguientes resultados: 
-
-La longitud de la secuencia es: 34
-La cantidad de nucleótidos 'A' en la secuencia es: 4
-El patrón 'GCC' se encuentra en la posición 4 de la secuencia.
-La subsecuencia extraída desde la posición 2 con una longitud de 10 es: GCCGCGCCCG
-
 
 exit;
