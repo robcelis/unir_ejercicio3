@@ -46,7 +46,3 @@ print "La subsecuencia extraída desde la posición $start con una longitud de $
 
 
 exit;
-
-
-
-
