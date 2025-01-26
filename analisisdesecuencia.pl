@@ -13,6 +13,14 @@ my $length= 10; # largo de la secuencia
 my $longitud  = length($secuencia);
 print "La longitud de la secuencia es : $longitud\n" ;
 
+# 2. Contar el número de ocurrencias del patrón
+my $cont_patron = () = $secuencia =~ /$patron/g;
+print "El patrón '$patron' aparece $cont_patron veces en la secuencia.\n";
+
+# 3. Contar las apariciones de un nucleótido específico
+my $cont_nucleotido = () = $secuencia =~ /$nucleotido/g;
+print "El nucleótido '$nucleotido' aparece $cont_nucleotido veces en la secuencia.\n";
+
 exit;
 
 
