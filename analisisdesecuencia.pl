@@ -21,6 +21,13 @@ print "El patrón '$patron' aparece $cont_patron veces en la secuencia.\n";
 my $cont_nucleotido = () = $secuencia =~ /$nucleotido/g;
 print "El nucleótido '$nucleotido' aparece $cont_nucleotido veces en la secuencia.\n";
 
+# Verificar patrón en la cadena complementaria
+if ($complemento =~ /$patron/) {
+    print "El patrón '$patron' está presente en la cadena complementaria.\n";
+} else {
+    print "El patrón '$patron' no está presente en la cadena complementaria.\n";
+
+
 exit;
 
 
