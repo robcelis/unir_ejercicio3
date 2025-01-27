@@ -1,8 +1,8 @@
 #!/usr/bin/perl
 use strict;
 use warnings;
-# Nombre del archivo que contiene la secuencia en formato fasta
-my $archivo = 'archivos_secuencias/secuencias.txt';  # Ajusta la ruta según el nombre de tu carpeta
+# Nombre del archivo que contiene la secuencia en formato fasta, .fas, .txt; 
+my $archivo = 'archivos_secuencias/secuencias.txt';  # Se Ajusta la ruta según el nombre de tu carpeta
 
 # Variable para almacenar la secuencia
 my $secuencia = '';
@@ -28,11 +28,21 @@ my $length= 10; # largo de la secuencia
 my $longitud  = length($secuencia);
 print "La longitud de la secuencia es : $longitud\n" ;
 
-# 2. Contar la cantidad de un nucleótido específico en la secuencia
-my $count_nucleotido = ($secuencia =~ s/$nucleotido/$nucleotido/g);
-print "La cantidad de nucleótidos '$nucleotido' en la secuencia es: $count_nucleotido\n";
+# 2. Contar el número de ocurrencias del patrón
+my $cont_patron = () = $secuencia =~ /$patron/g;
+print "El patrón '$patron' aparece $cont_patron veces en la secuencia.\n";
 
-# 3. Buscar un patrón dentro de la secuencia
+# 3. Contar las apariciones de un nucleótido específico
+my $cont_nucleotido = () = $secuencia =~ /$nucleotido/g;
+print "El nucleótido '$nucleotido' aparece $cont_nucleotido veces en la secuencia.\n";
+
+# 4. Verificar patrón en la cadena complementaria
+if ($complemento =~ /$patron/) {
+    print "El patrón '$patron' está presente en la cadena complementaria.\n";
+} else {
+    print "El patrón '$patron' no está presente en la cadena complementaria.\n";
+
+# 5. Buscar un patrón dentro de la secuencia
 my $posicion_patron = index($secuencia, $patron);
 if ($posicion_patron != -1) {
     print "El patrón '$patron' se encuentra en la posición $posicion_patron de la secuencia.\n";
