@@ -20,14 +20,15 @@ Maryam Tebyanian:  mtc1696
 Heidy Patiño: Hipatino16
 Silvia Figueroa: scfigo
 
-## Creacion de comandos para trabajar desde un archivo con secuencias en formato fasta
+## Creación de comandos para trabajar desde un archivo con secuencias en formato fasta
 
 Usando códigos en Pearl para su realización.
-Con la creación de comandos básicos para secuencias
+
+Con la creación de comandos básicos para secuencias.
 
 ## Contar si hay patrones similares
 
-Con la utilización de comandos que permiten buscar coincidencias desde un patron de secuencias usando una expresion regular. 
+Con la utilización de comandos que permiten buscar coincidencias desde un patrón de secuencias usando una expresión regular. 
 
 ## Contar las apariciones de un nucleotido específico
 
@@ -38,5 +39,8 @@ Buscando a través de comandos las coincidencias en una letra de la secuencia, p
 Con comandos que como su nombre lo indica nos ayuda identificar si tenemos otro patron en la secuencia o una subsecuencia que tal vez nos ayude a identificar otras coincidencias dentro de la secuencia.
 
 ## Identificar regiones ricas en CGC
-comnados que permiten detectar áreas de alta estabilidad debido a la presencia de guanina y citosina. se dice que se puede detectar las zona codificantes y no codificantes en la secuencia de un genoma. 
+
+Usando comandos que permiten detectar áreas de alta estabilidad debido a la presencia de guanina y citosina. 
+
+Se dice que se puede detectar las zona codificantes y no codificantes en la secuencia de un genoma. 
 
