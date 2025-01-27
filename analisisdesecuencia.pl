@@ -50,7 +50,7 @@ if ($posicion_patron != -1) {
     print "El patrón '$patron' no se encuentra en la secuencia.\n";
 }
 
-# 4. Extraer una subsecuencia específica
+# 6. Extraer una subsecuencia específica
 my $subsecuencia = substr($secuencia, $start, $length);
 print "La subsecuencia extraída desde la posición $start con una longitud de $length es: $subsecuencia\n";
 

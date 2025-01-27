@@ -5,7 +5,7 @@ Este repositorio tiene como objetivo: practicar el compartir y trabajar un proye
 El objetivo anterior lo ponemos en práctica con la creación de un archivo en formato Pearl donde todos los compañeros tienen acceso para realizar cambios y adiciones a este.
 En este archivo realizamos la manipulación de una secuencia de ADN tomando la guía de lo visto en clase para su realización.
 
-# Proyecto: script basico para analisis de secuencia
+# Proyecto: Script basico para analisis de secuencia
 
 # Objetivos
 
@@ -19,14 +19,14 @@ Heidy Patiño: Hipatino16
 Silvia Figueroa: scfigo
 
 ## creacion de comandos para trabajar desde un archivo con secuencias en formato fasta
-## creacion comandos basicos para secuencias
-## contar si hay patrones similares#
-con esto buscamos coincidencias en el patron de secuencias usando una xpresion regular 
-## contra las apariciones de un nucleotido especifico#
-aqui buscamos las coincidencia en una letra de la secuencia y vemos cuaod ejecutamos el codigo que la letra A paarece 4 veces en la secuencia. 
-## extraer una subsecuencia#
-como su nombre lo indica nos ayuda identificar si tenemos otro patron en la secuencia o una subsecuencia que tal vez nos ayude a identificar otras coincidencias en este caso La subsecuencia desde la posición 2 con longitud 10 es: TGCCGCGCGC.
+## creacion comandos básicos para secuencias
+## contar si hay patrones similares
+comandos que permiten busxcar coincidencias desde un patron de secuencias usando una expresion regular 
+## contar las apariciones de un nucleotido especifico
+comandos que permiten buscar las coincidencia en una letra de la secuencia, ejemplo, vemos cuando ejecutamos el codigo que la letra A aparece n veces en la secuencia. 
+## extraer una subsecuencia
+comandos que como su nombre lo indica nos ayuda identificar si tenemos otro patron en la secuencia o una subsecuencia que tal vez nos ayude a identificar otras coincidencias dentro de la secuencia.
 
-## Identificar regiones ricas en GC
-Esto es útil para detectar áreas de alta estabilidad debido a la presencia de guanina y citosina. se dice que se puede detectar las zona codificantes y no codificantes en la secuencia de un genoma. 
+## Identificar regiones ricas en CGC
+comnados que permiten detectar áreas de alta estabilidad debido a la presencia de guanina y citosina. se dice que se puede detectar las zona codificantes y no codificantes en la secuencia de un genoma. 
 
